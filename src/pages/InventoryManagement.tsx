@@ -11,3 +11,5 @@
          return 'Normal';
      }
    };
+
+export default getStatusText
