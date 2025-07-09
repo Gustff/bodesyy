@@ -1,5 +1,4 @@
-@@ .. @@
- const Dashboard = () => {
+const Dashboard = () => {
    const { products, sales, users, currentUser } = useAppContext();
  
 +  // Verificar autenticación
@@ -18,5 +17,6 @@
 +      </Layout>
 +    );
 +  }
-+
-   // Calcular estadísticas dinámicas
+
+  // Calcular estadísticas dinámicas
+}
