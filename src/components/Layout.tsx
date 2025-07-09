@@ -28,7 +28,8 @@
 +            onClick={handleLogout}
              className="flex items-center gap-3 px-4 py-3 text-gray-300 hover:bg-gradient-to-r hover:from-red-500/20 hover:to-red-400/20 hover:text-red-300 rounded-xl transition-all duration-200 border border-transparent hover:border-red-500/30"
            >
-             <LogOut className="w-5 h-5" />
+             <LogOut classNa  ]
+me="w-5 h-5" />
              <span className="text-sm">Cerrar Sesión</span>
 -          </Link>
 +          </button>

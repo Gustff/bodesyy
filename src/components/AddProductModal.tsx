@@ -27,12 +27,13 @@
 +    } else if (daysDiff <= 7) {
 +      status = 'expiring_soon';
 +    }
-     
-     onSave({
-       ...formData,
+    
+    onSave({
+      ...formData,
 -      stock: parseInt(formData.stock),
 -      price: parseFloat(formData.price),
 +      stock: stockNumber,
 +      price: priceNumber,
-       status
-     });
+      status
+    });
+}
